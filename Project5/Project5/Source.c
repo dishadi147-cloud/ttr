@@ -15,6 +15,13 @@ Complex create_complex(double real, double imag) {
     c.imag = imag;
     return c;
 }
+// Функции для работы с комплексными числами
+Complex create_complex(double real, double imag) {
+    Complex c;
+    c.real = real;
+    c.imag = imag;
+    return c;
+
 
 void print_complex(Complex c) {
     if (c.imag >= 0) {
